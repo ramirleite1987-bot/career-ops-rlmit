@@ -62,6 +62,7 @@ const SYSTEM_PATHS = [
   'analyze-patterns.mjs',
   'check-liveness.mjs',
   'cv-sync-check.mjs',
+  'export-csv.mjs',
   'dedup-tracker.mjs',
   'doctor.mjs',
   'followup-cadence.mjs',
