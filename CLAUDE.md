@@ -60,6 +60,7 @@ AI-powered job search automation built on Claude Code: pipeline tracking, offer 
 | `interview-prep/{company}-{role}.md` | Company-specific interview intel reports |
 | `analyze-patterns.mjs` | Pattern analysis script (JSON output) |
 | `followup-cadence.mjs` | Follow-up cadence calculator (JSON output) |
+| `weekly-digest.mjs` | Weekly progress digest (velocity, pipeline health, action items) |
 | `data/follow-ups.md` | Follow-up history tracker |
 | `reports/` | Evaluation reports (format: `{###}-{company-slug}-{YYYY-MM-DD}.md`). Blocks A-F + G (Posting Legitimacy). Header includes `**Legitimacy:** {tier}`. |
 
@@ -84,6 +85,7 @@ When using [OpenCode](https://opencode.ai), the following slash commands are ava
 | `/career-ops-batch` | `/career-ops batch` | Batch processing with parallel workers |
 | `/career-ops-patterns` | `/career-ops patterns` | Analyze rejection patterns and improve targeting |
 | `/career-ops-followup` | `/career-ops followup` | Follow-up cadence tracker |
+| `/career-ops-digest` | `/career-ops digest` | Weekly progress digest (pipeline health, velocity, action items) |
 
 **Note:** OpenCode commands invoke the same `.claude/skills/career-ops/SKILL.md` skill used by Claude Code. The `modes/*` files are shared between both platforms.
 
@@ -228,6 +230,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 | Batch processes offers | `batch` |
 | Asks about rejection patterns or wants to improve targeting | `patterns` |
 | Asks about follow-ups or application cadence | `followup` |
+| Asks for weekly digest, weekly summary, or pipeline overview | `digest` |
 
 ### CV Source of Truth
 

@@ -14,7 +14,10 @@
     "update": "node update-system.mjs apply",
     "rollback": "node update-system.mjs rollback",
     "liveness": "node check-liveness.mjs",
-    "scan": "node scan.mjs"
+    "scan": "node scan.mjs",
+    "digest": "node weekly-digest.mjs --summary",
+    "patterns": "node analyze-patterns.mjs --summary",
+    "followup": "node followup-cadence.mjs --summary"
   },
   "keywords": [
     "ai",
