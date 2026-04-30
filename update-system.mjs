@@ -29,6 +29,7 @@ const RELEASES_API = 'https://api.github.com/repos/santifer/career-ops/releases/
 
 // System layer paths — ONLY these files get updated
 const SYSTEM_PATHS = [
+  // Core modes (English)
   'modes/_shared.md',
   'modes/_profile.template.md',
   'modes/oferta.md',
@@ -39,21 +40,42 @@ const SYSTEM_PATHS = [
   'modes/auto-pipeline.md',
   'modes/contacto.md',
   'modes/deep.md',
+  'modes/digest.md',
+  'modes/followup.md',
+  'modes/interview-prep.md',
   'modes/ofertas.md',
+  'modes/patterns.md',
   'modes/pipeline.md',
   'modes/project.md',
   'modes/tracker.md',
   'modes/training.md',
+  // Localized mode dirs
   'modes/de/',
+  'modes/fr/',
+  'modes/ja/',
+  'modes/pt/',
+  'modes/ru/',
+  // Config / docs
   'CLAUDE.md',
   'AGENTS.md',
-  'generate-pdf.mjs',
-  'merge-tracker.mjs',
-  'verify-pipeline.mjs',
-  'dedup-tracker.mjs',
-  'normalize-statuses.mjs',
+  // Scripts
+  'analyze-patterns.mjs',
+  'check-liveness.mjs',
   'cv-sync-check.mjs',
+  'export-csv.mjs',
+  'dedup-tracker.mjs',
+  'doctor.mjs',
+  'followup-cadence.mjs',
+  'generate-pdf.mjs',
+  'liveness-core.mjs',
+  'merge-tracker.mjs',
+  'normalize-statuses.mjs',
+  'scan.mjs',
+  'test-all.mjs',
   'update-system.mjs',
+  'verify-pipeline.mjs',
+  'weekly-digest.mjs',
+  // Other system dirs
   'batch/batch-prompt.md',
   'batch/batch-runner.sh',
   'dashboard/',
@@ -61,6 +83,7 @@ const SYSTEM_PATHS = [
   'fonts/',
   '.claude/skills/',
   'docs/',
+  // Metadata
   'VERSION',
   'DATA_CONTRACT.md',
   'CONTRIBUTING.md',

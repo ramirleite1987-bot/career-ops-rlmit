@@ -66,6 +66,10 @@ const scripts = [
   { name: 'dedup-tracker.mjs', expectExit: 0 },
   { name: 'merge-tracker.mjs', expectExit: 0 },
   { name: 'update-system.mjs check', expectExit: 0 },
+  { name: 'analyze-patterns.mjs', expectExit: 1, allowFail: true },   // exits 1 without data
+  { name: 'followup-cadence.mjs', expectExit: 1, allowFail: true },   // exits 1 without data
+  { name: 'weekly-digest.mjs', expectExit: 1, allowFail: true },      // exits 1 without data
+  { name: 'doctor.mjs', expectExit: 1, allowFail: true },             // exits 1 without user files
 ];
 
 for (const { name, allowFail } of scripts) {
@@ -218,9 +222,11 @@ if (!absPathResult) {
 console.log('\n8. Mode file integrity');
 
 const expectedModes = [
-  '_shared.md', '_profile.template.md', 'oferta.md', 'pdf.md', 'scan.md',
-  'batch.md', 'apply.md', 'auto-pipeline.md', 'contacto.md', 'deep.md',
-  'ofertas.md', 'pipeline.md', 'project.md', 'tracker.md', 'training.md',
+  '_shared.md', '_profile.template.md',
+  'oferta.md', 'pdf.md', 'scan.md', 'batch.md', 'apply.md',
+  'auto-pipeline.md', 'contacto.md', 'deep.md', 'ofertas.md',
+  'pipeline.md', 'project.md', 'tracker.md', 'training.md',
+  'followup.md', 'patterns.md', 'interview-prep.md', 'digest.md',
 ];
 
 for (const mode of expectedModes) {
@@ -228,6 +234,16 @@ for (const mode of expectedModes) {
     pass(`Mode exists: ${mode}`);
   } else {
     fail(`Missing mode: ${mode}`);
+  }
+}
+
+// Check localized mode dirs are present
+const localizedDirs = ['de', 'fr', 'ja', 'pt', 'ru'];
+for (const lang of localizedDirs) {
+  if (fileExists(`modes/${lang}/_shared.md`)) {
+    pass(`Localized modes present: ${lang}/`);
+  } else {
+    fail(`Missing localized modes: modes/${lang}/`);
   }
 }
 
