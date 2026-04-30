@@ -43,6 +43,7 @@ const SYSTEM_PATHS = [
   'modes/digest.md',
   'modes/followup.md',
   'modes/interview-prep.md',
+  'modes/negotiation.md',
   'modes/ofertas.md',
   'modes/patterns.md',
   'modes/pipeline.md',

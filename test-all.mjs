@@ -226,7 +226,7 @@ const expectedModes = [
   'oferta.md', 'pdf.md', 'scan.md', 'batch.md', 'apply.md',
   'auto-pipeline.md', 'contacto.md', 'deep.md', 'ofertas.md',
   'pipeline.md', 'project.md', 'tracker.md', 'training.md',
-  'followup.md', 'patterns.md', 'interview-prep.md', 'digest.md',
+  'followup.md', 'patterns.md', 'interview-prep.md', 'digest.md', 'negotiation.md',
 ];
 
 for (const mode of expectedModes) {

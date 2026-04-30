@@ -1,53 +1,63 @@
-# Modo: contacto -- LinkedIn Power Move
+# Mode: contacto — LinkedIn Outreach
 
-1. **Identificar targets** via WebSearch:
-   - Hiring manager del equipo
-   - Recruiter asignado
-   - 2-3 peers del equipo (gente con rol similar)
-   - Interviewer (si el candidato ya tiene entrevista programada)
+## Step 1 — Identify targets
 
-2. **Clasificar tipo de contacto** -- preguntar al candidato o inferir del contexto:
-   - **Recruiter** -- persona cuyo rol es talent acquisition, sourcing, o recruiting
-   - **Hiring Manager** -- la persona que lidera el equipo que contrata
-   - **Peer** -- alguien con un rol similar en el equipo (referral indirecto)
-   - **Interviewer** -- alguien que va a entrevistar al candidato (fecha conocida)
+Search via WebSearch:
+- Hiring manager of the team
+- Assigned recruiter
+- 2–3 team peers (people with a similar role)
+- Interviewer (if the candidate already has an interview scheduled)
 
-3. **Seleccionar target primario**: la persona que mas se beneficiaria de que el candidato estuviera alli
+## Step 2 — Classify contact type
 
-4. **Generar mensaje** con framework de 3 frases adaptado al tipo de contacto:
+Ask the candidate or infer from context:
+- **Recruiter** — someone in talent acquisition, sourcing, or recruiting
+- **Hiring Manager** — the person leading the hiring team
+- **Peer** — someone with a similar role on the team (indirect referral path)
+- **Interviewer** — someone who will interview the candidate (known scheduled date)
 
-   ### Recruiter
-   - **Frase 1 (Fit)**: Criterios de match directo -- rol, experiencia relevante, disponibilidad o ubicacion
-   - **Frase 2 (Prueba)**: Dato que responda sus preguntas de screening antes de que las hagan (ej: "5 years building ML pipelines, currently in Berlin, available immediately")
-   - **Frase 3 (CTA)**: "Happy to share my CV if this aligns with what you're looking for"
+## Step 3 — Select the primary target
 
-   ### Hiring Manager
-   - **Frase 1 (Gancho)**: Reto especifico que enfrenta su equipo (extraido del JD, company blog, o noticias)
-   - **Frase 2 (Prueba)**: Mayor logro cuantificable del candidato que demuestre que ha resuelto problemas similares
-   - **Frase 3 (CTA)**: "Would love to hear how your team is approaching [reto especifico]"
+The person most likely to benefit from the candidate being there.
 
-   ### Peer (referral)
-   - **Frase 1 (Interes)**: Referencia genuina a su trabajo -- blog post, charla, proyecto open source, o publicacion
-   - **Frase 2 (Conexion)**: Algo que el candidato esta haciendo en el mismo espacio (NO un pitch de empleo)
-   - **Frase 3 (CTA)**: "I've been working on similar problems at [empresa], would love to hear your take on [tema]"
-   - **Nota**: NO pedir empleo. La referral ocurre naturalmente si la conversacion fluye.
+## Step 4 — Generate the message
 
-   ### Interviewer (pre-entrevista)
-   - **Frase 1 (Research)**: Referencia a algo especifico de su trabajo o trayectoria
-   - **Frase 2 (Contexto)**: Conexion ligera con la experiencia del candidato en ese tema
-   - **Frase 3 (CTA)**: "Looking forward to our conversation on [fecha]"
-   - **Nota**: Tono ligero, no desesperado. El objetivo es que sepan que te preparaste.
+Use a 3-sentence framework adapted to the contact type:
 
-5. **Versiones**:
-   - EN (default)
-   - ES (si empresa espanola)
+### Recruiter
+- **Sentence 1 (Fit):** Direct match criteria — role, relevant experience, availability or location
+- **Sentence 2 (Proof):** Data point that pre-answers their screening questions (e.g., "5 years building ML pipelines, currently in Berlin, available immediately")
+- **Sentence 3 (CTA):** "Happy to share my CV if this aligns with what you're looking for"
 
-6. **Targets alternativos** con justificacion de por que son buenos second choices
+### Hiring Manager
+- **Sentence 1 (Hook):** A specific challenge their team faces (extracted from the JD, company blog, or news)
+- **Sentence 2 (Proof):** The candidate's biggest quantifiable achievement that shows they've solved similar problems
+- **Sentence 3 (CTA):** "Would love to hear how your team is approaching [specific challenge]"
 
-**Reglas del mensaje:**
-- Maximo 300 caracteres (LinkedIn connection request limit)
-- NO corporate-speak
-- NO "I'm passionate about..."
-- Algo que haga que quieran responder
-- NUNCA compartir telefono
-- El tipo de contacto cambia el ENFASIS, no la estructura
+### Peer (referral path)
+- **Sentence 1 (Interest):** Genuine reference to their work — blog post, talk, open-source project, or publication
+- **Sentence 2 (Connection):** Something the candidate is doing in the same space (NOT a job pitch)
+- **Sentence 3 (CTA):** "I've been working on similar problems at [company], would love to hear your take on [topic]"
+- **Note:** Do NOT ask for a job. The referral happens naturally if the conversation flows.
+
+### Interviewer (pre-interview)
+- **Sentence 1 (Research):** Reference something specific from their work or background
+- **Sentence 2 (Context):** Light connection to the candidate's experience on that topic
+- **Sentence 3 (CTA):** "Looking forward to our conversation on [date]"
+- **Note:** Tone should be light, not eager. The goal is to show they prepared.
+
+## Step 5 — Deliver
+
+Provide:
+- The drafted message for the primary target
+- 2–3 alternative targets with a one-line rationale for why each is a good second choice
+- Language defaults to EN; use ES if the company is Spanish-speaking
+
+## Message rules
+
+- Maximum 300 characters (LinkedIn connection request limit)
+- No corporate-speak
+- No "I'm passionate about…"
+- Something that makes them want to reply
+- Never share a phone number
+- The contact type changes the **emphasis**, not the structure

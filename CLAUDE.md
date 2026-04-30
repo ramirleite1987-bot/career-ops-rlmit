@@ -86,6 +86,7 @@ When using [OpenCode](https://opencode.ai), the following slash commands are ava
 | `/career-ops-patterns` | `/career-ops patterns` | Analyze rejection patterns and improve targeting |
 | `/career-ops-followup` | `/career-ops followup` | Follow-up cadence tracker |
 | `/career-ops-digest` | `/career-ops digest` | Weekly progress digest (pipeline health, velocity, action items) |
+| `/career-ops-negotiate` | `/career-ops negotiation` | Salary negotiation strategy, counter-offer scripts, walk-away analysis |
 
 **Note:** OpenCode commands invoke the same `.claude/skills/career-ops/SKILL.md` skill used by Claude Code. The `modes/*` files are shared between both platforms.
 
@@ -231,6 +232,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 | Asks about rejection patterns or wants to improve targeting | `patterns` |
 | Asks about follow-ups or application cadence | `followup` |
 | Asks for weekly digest, weekly summary, or pipeline overview | `digest` |
+| Received an offer and wants to negotiate salary or total comp | `negotiation` |
 
 ### CV Source of Truth
 
