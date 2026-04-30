@@ -70,6 +70,12 @@ const scripts = [
   { name: 'followup-cadence.mjs', expectExit: 1, allowFail: true },   // exits 1 without data
   { name: 'weekly-digest.mjs', expectExit: 1, allowFail: true },      // exits 1 without data
   { name: 'doctor.mjs', expectExit: 1, allowFail: true },             // exits 1 without user files
+  { name: 'stats.mjs', expectExit: 0 },
+  { name: 'stats.mjs --summary', expectExit: 0 },
+  { name: 'export-tracker.mjs', expectExit: 0 },
+  { name: 'export-tracker.mjs --format json', expectExit: 0 },
+  { name: 'verify-reports.mjs', expectExit: 0 },
+  { name: 'verify-reports.mjs --json', expectExit: 0 },
 ];
 
 for (const { name, allowFail } of scripts) {
