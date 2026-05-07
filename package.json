@@ -5,6 +5,7 @@
   "scripts": {
     "doctor": "node doctor.mjs",
     "verify": "node verify-pipeline.mjs",
+    "verify:reports": "node verify-reports.mjs",
     "normalize": "node normalize-statuses.mjs",
     "dedup": "node dedup-tracker.mjs",
     "merge": "node merge-tracker.mjs",
@@ -18,8 +19,10 @@
     "digest": "node weekly-digest.mjs --summary",
     "patterns": "node analyze-patterns.mjs --summary",
     "followup": "node followup-cadence.mjs --summary",
+    "stats": "node stats.mjs --summary",
     "export": "node export-csv.mjs",
-    "export:enrich": "node export-csv.mjs --enrich"
+    "export:enrich": "node export-csv.mjs --enrich",
+    "export:tracker": "node export-tracker.mjs"
   },
   "keywords": [
     "ai",

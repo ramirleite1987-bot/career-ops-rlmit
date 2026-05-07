@@ -61,6 +61,9 @@ AI-powered job search automation built on Claude Code: pipeline tracking, offer 
 | `analyze-patterns.mjs` | Pattern analysis script (JSON output) |
 | `followup-cadence.mjs` | Follow-up cadence calculator (JSON output) |
 | `weekly-digest.mjs` | Weekly progress digest (velocity, pipeline health, action items) |
+| `stats.mjs` | Pipeline funnel + score-vs-outcome analytics (JSON or `--summary`; `npm run stats`) |
+| `export-tracker.mjs` | Export `applications.md` to CSV/JSON/TSV; `--enrich` adds URL, Legitimacy, Archetype from each report (`npm run export:tracker`) |
+| `verify-reports.mjs` | Validate report file headers (URL/Score/Legitimacy), Blocks A–G, score-vs-tracker agreement, and orphans (`npm run verify:reports`; supports `--json`) |
 | `data/follow-ups.md` | Follow-up history tracker |
 | `reports/` | Evaluation reports (format: `{###}-{company-slug}-{YYYY-MM-DD}.md`). Blocks A-F + G (Posting Legitimacy). Header includes `**Legitimacy:** {tier}`. |
 
